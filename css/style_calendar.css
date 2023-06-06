@@ -1,0 +1,56 @@
+table tbody tr a {
+    
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+table tbody tr a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.calendar_container{
+    color:black;
+    margin-left: 200px;
+    font-size: 25px;
+    font-style: bold;
+
+  }
+   
+.calendar_container:hover{
+     
+    transition: 0.2s;
+}
+.abc{
+    margin-top: 40px;
+    height: 300px;
+    color: black;
+
+}
+
+.abc:hover{ 
+    background-color: rgba(208, 204, 204, 0.658);
+    color:rgb(245, 126, 126);
+    margin-left: 50px;
+    transition: 0.4s;
+   
+}
+.tbl_body .abc:hover{
+    height: 100px; width: 600px; border-radius: 15px; 
+    background-color: rgba(208, 204, 204, 0.658);
+    
+}
+
+.container_bg{
+
+    height:500px; width: 1000px; border-radius: 25px; border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 50px;
+    background-color: rgba(208, 204, 204, 0.658);
+    margin-left: 300px;
+
+    transition: box-shadow 0.3s ease;
+}
+.container_bg:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
